@@ -1,0 +1,12 @@
+{
+  "bundles": {
+    "Fogswimmer\\DataMigration\\DataMigrationBundle": ["all"]
+  },
+  "copy-from-recipe": {
+    "config/": "%CONFIG_DIR%/",
+    "src/": "%SRC_DIR%/"
+  },
+  "env": {
+    "DATA_MIGRATION_ENABLED": "1"
+  }
+}

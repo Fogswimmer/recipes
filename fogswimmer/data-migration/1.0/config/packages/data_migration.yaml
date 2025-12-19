@@ -1,0 +1,12 @@
+data_migration:
+  data_source:
+    type: database
+    connection: old
+
+  tables:
+    App\Entity\Example:
+      source: legacy_table
+      map:
+        name: legacy_name
+      post_process:
+        - example_post_processor
