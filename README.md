@@ -13,7 +13,7 @@ To use the recipe add the following to your **composer.json**
 "extra": {
   "symfony": {
     "endpoint": [
-      "https://api.github.com/repos/fogswimmer/recipes/contents/index.json",
+      "https://raw.githubusercontent.com/fogswimmer/recipes/main/index.json",
       "flex://defaults"
     ]
   }

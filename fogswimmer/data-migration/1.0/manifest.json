@@ -3,7 +3,7 @@
     "Fogswimmer\\DataMigration\\DataMigrationBundle": ["all"]
   },
   "copy-from-recipe": {
-    "config/": "%CONFIG_DIR%/",
+    "config/packages/": "%CONFIG_DIR%/",
     "src/": "%SRC_DIR%/"
   }
 }
