@@ -1,5 +1,5 @@
 {
   "fogswimmer/data-migration": {
-    "manifest": "fogswimmer/data-migration/1.0/manifest.json"
+    "manifest": "recipes/fogswimmer/data-migration/1.0/manifest.json"
   }
 }
